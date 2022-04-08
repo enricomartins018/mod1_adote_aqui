@@ -1,0 +1,391 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: url(https://newevolutiondesigns.com/images/freebies/purple-iphone-wallpaper-21.jpg); 
+    background-position: center;
+    background-color: rgb(255, 255, 255);
+}
+
+.container{
+    width: 100%;
+    height: 100%;   
+}
+
+.Adote{
+    color: #f8e1fc;
+    background-color: #44083fa1;
+    font-size: 45px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.Pensa{
+    color: #ffffff;
+    font-size: 15px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;  
+}
+
+.Adote:hover{
+    color: #FFD000;
+    font-size: 50px;
+    transform: scale(1.1);
+    transition: all 2.5s;
+}
+
+.Pensa:hover{
+    color: #FFD000;
+}
+
+header{
+    font-size: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.Navegacoes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    font-size: 20x;
+    gap: 20px;
+    padding: 40px 40px;
+    background-color: #680b686e;
+}
+.Home, .Sobre, .Contato, .Querodoar, .Filiese, .denunciemaustratos{
+    color: #ffffff;
+}
+
+.Home:hover, .Sobre:hover, .Contato:hover, .Querodoar:hover, .Filiese:hover, .titulofiliacao:hover, .titulodenuncie:hover, .denunciemaustratos:hover, .botaodenuncie:hover, .titulofiliacao2:hover{
+    color: #FFD000;
+    font-size: 15px;
+}
+
+.botaofiliese:hover{
+    color: #FFD000;
+    font-size: 5px;
+}
+
+.filiacao{
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.Filiacao{
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(128, 0, 128, 0.486);
+    padding: 50px;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.background{
+    padding: 100px;
+    background-image: url(https://s1.1zoom.me/big0/217/Tigers_Water_581926_1280x720.jpg);
+    background-size: cover;
+}
+
+.titulofiliacao{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.botaofiliese{
+    color: #ffffff;
+    background-color: rgba(128, 0, 128, 0.486);
+    border: none;
+    border-radius: 10px;
+    font-size: 7px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    padding: 15px 30px;
+}
+
+.botaoentrar{
+    color: rgb(255, 255, 255);
+    background-color: rgba(128, 0, 128, 0.486);
+    border: none;
+    border-radius: 10px;
+    font-size: 7px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    padding: 15px 30px;
+}
+
+.botaofiliese1{
+    color: rgb(255, 255, 255);
+    background-color: rgba(128, 0, 128, 0.486);
+    border: none;
+    border-radius: 10px;
+    font-size: 7px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    padding: 15px 30px;
+}
+
+.Denuncie{
+    border-radius: 50px;
+    background-color: rgba(128, 0, 128, 0.486);
+    padding: 50px;
+    text-align: center;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+}
+
+.background2{
+    padding: 100px;
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/151/916/947/cats-tiger-baby-animal-big-cat-cub-hd-wallpaper-preview.jpg);
+    background-size: cover;
+}
+
+.botaodenuncie{
+    color: rgb(255, 255, 255);
+    background-color: rgba(128, 0, 128, 0.486);
+    border: none;
+    border-radius: 10px;
+    font-size: 7px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    padding: 15px 30px;
+}
+
+.botaofederacao{
+    color: rgb(255, 255, 255);
+    background-color: rgba(128, 0, 128, 0.486);
+    border: none;
+    border-radius: 10px;
+    font-size: 7px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    padding: 15px 30px;
+}
+
+.botaodenuncie:hover, .botaofederacao:hover, .botaoentrar:hover, .botaofiliese1:hover{
+    color: #FFD000;
+    font-size: 5px;
+}
+
+#logoftd:hover{
+    color: #FFD000;
+    font-size: 5px;
+}
+.background3{
+    padding: 100px;
+    background-image: url(https://wallpaperaccess.com/full/7377498.jpg);
+    background-size: cover;
+}
+
+.Filiacao2{
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(128, 0, 128, 0.486);
+    padding: 50px;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.titulofiliacao2{
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.parceiros{
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(128, 0, 128, 0.486);
+    height: 50px;
+}
+
+.Parceirosmaster{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.conheca{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(128, 0, 128, 0.486);
+    color: #ffffff;
+    height: 70px;
+    width: auto;
+}
+
+.conheca1:hover{
+    color: #FFD000;
+    font-size: 40px;
+    transform: scale(1.1);
+    transition: all 2.5s;
+}
+
+.animais{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.animais2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.animal1{
+    border: 5px solid purple;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFD000; text-shadow: black 0.1em 0.1em 0.2em;
+    background-image: url(http://imagem.band.com.br/f_424567.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    width: 400px;
+    height: 500px;
+    background-color: rgb(255, 0, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.animal2{
+    border: 5px solid purple;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFD000; text-shadow: black 0.1em 0.1em 0.2em;
+    background-image: url(https://http2.mlstatic.com/D_NQ_NP_824400-MLB27428560954_052018-O.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    width: 400px;
+    height: 500px;
+    background-color: rgb(0, 238, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.animal3{
+    border: 5px solid purple;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFD000; text-shadow: black 0.1em 0.1em 0.2em;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQain0CPs65pwrcttpNWrZ4L_iAR1IKpXr2TQ&usqp=CAU);
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    width: 400px;
+    height: 500px;
+    background-color: rgb(110, 58, 9);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.animal4{
+    border: 5px solid purple;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFD000; text-shadow: black 0.1em 0.1em 0.2em;
+    background-image: url(https://images3.memedroid.com/images/UPLOADED27/5cb3d465d11d7.jpeg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    width: 400px;
+    height: 500px;
+    background-color: rgb(51, 255, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.animal5{
+    border: 5px solid purple;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFD000; text-shadow: black 0.1em 0.1em 0.2em;
+    background-image: url(https://static.eldeber.com.bo//Files/Sizes/2020/2/13/1021631390_380x260.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    width: 400px;
+    height: 500px;
+    background-color: rgb(212, 0, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.animal6{
+    border: 5px solid purple;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFD000; text-shadow: black 0.1em 0.1em 0.2em;
+    background-image: url(https://extra.globo.com/incoming/24619898-7e8-4e2/w448/blog_dog_tiger_3.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    width: 400px;
+    height: 500px;
+    background-color: rgb(255, 238, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.paragrafo{
+    color: #ffffff; text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.paragrafo:hover{
+    color: #FFD000;
+}
+
+#footer{
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 238, 0);
+}
